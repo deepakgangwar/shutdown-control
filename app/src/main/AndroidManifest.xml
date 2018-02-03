@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <!--for detection by xposed -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Xposed module to control the shut down at low voltages" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53" />
+
     </application>
 
 </manifest>
